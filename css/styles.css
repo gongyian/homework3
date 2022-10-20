@@ -190,7 +190,7 @@ header p{
   overflow: scroll;
 }
 
-@media all and (min-width: 950px){
+@media all and (min-width: 800px){
 
   .container{
     /*Your code here */
@@ -204,6 +204,12 @@ header p{
     text-align: right;
     padding: 35px 0px;
     align-self: center;
+  }
+
+  .skip a:focus{
+    position: absolute;
+    left: 0;
+    top: 20px;
   }
 
    .about, .clients, .method-image, .contact-image {
